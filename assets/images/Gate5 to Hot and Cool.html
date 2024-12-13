@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route to Hot and Cool</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; /* Center the content vertically */
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px; /* Add padding to avoid edge touching */
+            box-sizing: border-box;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            max-width: 100%;
+        }
+
+        #route-info {
+            text-align: left;
+            margin-bottom: 20px; /* Adjusted margin for better spacing */
+            max-width: 90%; /* Make it responsive */
+        }
+
+        #route-map img {
+            width: 100%; /* Ensure image is responsive */
+            max-width: 600px; /* Limit the max width for large screens */
+            height: auto;
+            border-radius: 10px; /* Optional: Add rounded corners for style */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for effect */
+        }
+
+        @media (min-width: 768px) {
+            main {
+                flex-direction: row; /* Switch to row layout for larger screens */
+                justify-content: space-between;
+            }
+
+            #route-info {
+                margin-right: 20px;
+                margin-bottom:160px;
+                max-width: 50%; /* Adjust the width for larger screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><u>Route to Hot and Cool</u></h1>
+    </header>
+    <main>
+        <div id="route-info">
+            <!-- Add specific route information here -->
+            <h2>Route from  Gate-5 to Hot and Cool</h2><!-- ithe ji location aahe tach nav takh main gate to xy z -->
+            <p><b>Hot and Cool:</b> Hot and Cool is the go-to spot on campus for quick bites, offering a delightful variety of fast food and snacks to satisfy your cravings. Whether you’re in the mood for something hot and savory or a chilled refreshing treat, this food corner has it all. From crispy fries, burgers, and sandwiches to flavorful wraps and rolls, Hot and Cool is perfect for students and faculty looking for a quick snack or a fast meal between classes.</p>
+
+            <p>In addition to savory options, Hot and Cool serves a selection of cold beverages like fresh juices, shakes, and iced tea to keep you refreshed.</p>
+
+        </div>
+        <div id="route-map">
+            <!-- Display route map photo here -->
+            <img src="Gate5 to Hot and Cool.png" alt="Route Map to Gate-5 Hot and Cool"> <!-- ithe chsnge kar photo chi location add kar jashi mi keli aahe bag rout 5 tas     -->
+        </div>
+    </main>
+    <script src="js/route.js"></script>
+</body>
+</html>

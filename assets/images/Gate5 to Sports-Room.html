@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route to Sports-Room</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; /* Center the content vertically */
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px; /* Add padding to avoid edge touching */
+            box-sizing: border-box;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            max-width: 100%;
+        }
+
+        #route-info {
+            text-align: left;
+            margin-bottom: 20px; /* Adjusted margin for better spacing */
+            max-width: 90%; /* Make it responsive */
+        }
+
+        #route-map img {
+            width: 100%; /* Ensure image is responsive */
+            max-width: 600px; /* Limit the max width for large screens */
+            height: auto;
+            border-radius: 10px; /* Optional: Add rounded corners for style */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for effect */
+        }
+
+        @media (min-width: 768px) {
+            main {
+                flex-direction: row; /* Switch to row layout for larger screens */
+                justify-content: space-between;
+            }
+
+            #route-info {
+                margin-right: 20px;
+                margin-bottom:160px;
+                max-width: 50%; /* Adjust the width for larger screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+        <h1> <u>Route to Sports-Room</u></h1>
+    </header>
+    <main>
+        <div id="route-info">
+            <h2>Route from Gate-5  to Sports-Room</h2>
+            <p><b>Sports-Room:</b> The Sports Room is a dedicated space on campus designed to support students' physical fitness and sports training. Equipped with a range of indoor sports and fitness equipment, it serves as the perfect place for students to train, practice, or unwind after a long day of academics.</p>
+
+                <p>The room is stocked with essential gear for a variety of sports, including table tennis, badminton, and indoor basketball, as well as fitness equipment such as weights, treadmills, and exercise mats. The Sports Room is designed for both individual workouts and group activities, offering an inviting environment where students can focus on building strength, endurance, and coordination.</p> </div>
+        <div id="route-map">
+            <img src="Gate5 to Sports-Room.png" alt="Route Map to Gate-5 Sports-Room"> <!-- Adjusted alt text -->
+        </div>
+    </main>
+    <script src="js/route.js"></script>
+    
+</body>
+</html>

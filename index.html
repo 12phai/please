@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>College Navigation</title>
+</head>
+<body>
+    <header>
+        <!-- Add your college logo here -->
+        <img src="assets/images/logo.png" alt="College Logo" id="college-logo">
+    </header>
+    
+    <main>
+        <div id="map-container">
+            <img src="assets/images/page.png" alt="Campus Map">
+            <div id="start-end-points">
+                <div id="start-point">
+                    <label for="start-input">Start Point:</label>
+                    <select id="start-input">
+                        <option value="Gate-3">Gate 3</option>
+                        <option value="Gate-5">Gate 5</option>
+                        
+                    </select>
+                </div>
+                <div id="end-point">
+                    <label for="end-input">End Point:</label>
+                    <select id="end-input">
+                        <option value="Gate-3">Gate-3</option>
+                        <option value="Gate-5">Gate-5</option>
+                        <option value="Hut">Hut</option>
+                        <option value="A-BLOCK">A-BLOCK</option>
+                        <option value="B-BLOCK">B-BLOCK</option>
+                        <option value="C-BLOCK">C-BLOCK</option>
+                        <option value="D-BLOCK">D-BLOCK</option>
+                        <option value="Girls-Hostel">Girls-Hostel</option>
+                        <option value="Canteen">Canteen</option>
+                        <option value="Hot and Cool">Hot and Cool</option>
+                        <option value="Parking">Parking</option>
+                        <option value="Boys-Hostel">Boys-Hostel</option>
+                        <option value="Sports-Room">Sports-Room</option>
+                        <option value="Playground">Playground</option>
+                        <option value="Basketball_Court">Basketball_Court</option>                        
+                        <option value="Upahar">Upahar</option>
+                    </select>
+                </div>
+                <button id="find-route-btn">Find Route</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

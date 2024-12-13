@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route to C-BLOCK</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; /* Center the content vertically */
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px; /* Add padding to avoid edge touching */
+            box-sizing: border-box;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            max-width: 100%;
+        }
+
+        #route-info {
+            text-align: left;
+            margin-bottom: 20px; /* Adjusted margin for better spacing */
+            max-width: 90%; /* Make it responsive */
+        }
+
+        #route-map img {
+            width: 100%; /* Ensure image is responsive */
+            max-width: 600px; /* Limit the max width for large screens */
+            height: auto;
+            border-radius: 10px; /* Optional: Add rounded corners for style */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for effect */
+        }
+
+        @media (min-width: 768px) {
+            main {
+                flex-direction: row; /* Switch to row layout for larger screens */
+                justify-content: space-between;
+            }
+
+            #route-info {
+                margin-right: 20px;
+                margin-bottom: 160px;
+                max-width: 50%; /* Adjust the width for larger screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> <u>Route to C-BLOCK</u></h1>
+    </header>
+    <main>
+        <div id="route-info">
+            <!-- Add specific route information here -->
+            <h2>Route from Gate-3 to C-BLOCK</h2><!-- ithe ji location aahe tach nav takh main gate to xy z -->
+            <p><b>C-BLOCK:</b> C-BLOCK is a dynamic learning center primarily dedicated to students of Electrical & Electronics Engineering (EEE) ,  Electronics & Communication Engineering (ECE), Artificial Intelligence and Machine Learning(AIML) ,Computer Science and Engineering(CSE) and Information Science and Engineering(ISE). This block provides a well-organized space where students can access classrooms, specialized labs, and faculty guidance all in one place.</p>
+
+                <p><b>Main Floors:</b> C-BLOCK’s classrooms are dedicated to EEE and ECE students, offering a focused environment equipped with modern teaching aids to enhance learning.</p>
+                
+                <p><b>Faculty Area:</b> Houses faculty offices for Physics, providing easy access to instructors and fostering close academic interaction for students needing assistance in Physics-related topics.</p>
+                
+                <p><b>Basement 2:</b> This level contains advanced laboratories for Physics, alongside specialized labs for EEE and ECE students. These labs are thoughtfully designed for hands-on learning and experimentation, giving students the opportunity to apply theoretical knowledge in a practical setting.</p>
+        </div>
+        <div id="route-map">
+            <!-- Display route map photo here -->
+            <img src="Gate3 to C-BLOCK.png" alt="Route Map to Gate-3 C-BLOCK"> <!-- ithe chsnge kar photo chi location add kar jashi mi keli aahe bag rout 5 tas     -->
+        </div>
+    </main>
+    <script src="js/route.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route to Upahar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; /* Center the content vertically */
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px; /* Add padding to avoid edge touching */
+            box-sizing: border-box;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            max-width: 100%;
+        }
+
+        #route-info {
+            text-align: left;
+            margin-bottom: 20px; /* Adjusted margin for better spacing */
+            max-width: 90%; /* Make it responsive */
+        }
+
+        #route-map img {
+            width: 100%; /* Ensure image is responsive */
+            max-width: 600px; /* Limit the max width for large screens */
+            height: auto;
+            border-radius: 10px; /* Optional: Add rounded corners for style */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for effect */
+        }
+
+        @media (min-width: 768px) {
+            main {
+                flex-direction: row; /* Switch to row layout for larger screens */
+                justify-content: space-between;
+            }
+
+            #route-info {
+                margin-right: 20px;
+                margin-bottom:160px;
+                max-width: 50%; /* Adjust the width for larger screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+        <h1> <u>Route to Upahar</u></h1>
+    </header>
+    <main>
+        <div id="route-info">
+            <h2>Route from Gate-3  to Upahar</h2>
+            <p><b>Upahar:</b> Upahar is a cozy and vibrant food corner on campus, offering a wide range of fresh, tasty, and affordable snacks and meals to keep you energized throughout the day. Whether you're craving a quick snack between classes or looking for a full meal, Upahar provides a variety of options to satisfy your hunger. The menu includes healthy salads, sandwiches, wraps, local delicacies, and a variety of beverages such as fresh juices, coffee, and tea.</p>
+
+                <p>Designed with a warm and inviting atmosphere, Upahar is the perfect place for students and faculty to take a break, socialize, or catch up on work in a relaxed setting. With clean, comfortable seating and friendly service, it's not just about food – it's a space to connect with friends, enjoy a moment of relaxation, and recharge before heading back to your academic activities.</p>
+             </div>
+        <div id="route-map">
+            <img src="Gate3 to Upahar.png" alt="Route Map to Gate-3 Upahar"> <!-- Adjusted alt text -->
+        </div>
+    </main>
+    <script src="js/route.js"></script>
+    
+</body>
+</html>
